@@ -1,0 +1,20 @@
+{
+    "name": "villagrabaez/frameworks-php",
+    "description": "Proyecto basico para entender los conceptos fundamentales de un Framework PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "villagrabaez",
+            "email": "bernardinovillagra@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
